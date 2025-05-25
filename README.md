@@ -7,14 +7,17 @@ cd server
 node server.js
 
 # Task-Management
+
 CRUD Task using React + Vite and Material UI
 
 #app
+
 Node.js
 https://nodejs.org
 node -v
 
 ##Vite + React
+
 npm create vite@latest task-manager -- --template React
 npm install
 npm run dev
