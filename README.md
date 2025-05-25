@@ -11,10 +11,13 @@ npm create vite@latest task-manager -- --template React
 npm install
 npm run dev
 
+-----------------------------------------------------------------------------------
 npm install react react-dom
-npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 npm install axios
 npm install react-router-dom
+npm install @mui/material @emotion/react @emotion/styled
+-----------------------------------------------------------------------------------
 
 
 
