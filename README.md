@@ -1,6 +1,23 @@
 # Task-Management
 CRUD Task using React + Vite and Material UI
 
+#app
+Node.js
+https://nodejs.org
+node -v
+
+##Vite + React
+npm create vite@latest task-manager -- --template React
+npm install
+npm run dev
+
+npm install react react-dom
+npm install @mui/material @emotion/react @emotion/styled
+npm install axios
+npm install react-router-dom
+
+
+
 ##server
 npm install express pg bcrypt jsonwebtoken cors dotenv
 
