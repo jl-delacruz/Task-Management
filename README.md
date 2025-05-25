@@ -32,6 +32,7 @@ npm install @mui/material @emotion/react @emotion/styled
 
 
 ##server
+
 -----------------------------------------------------------------------------------
 npm install express pg bcrypt jsonwebtoken cors dotenv multer
 
@@ -42,7 +43,9 @@ jsonwebtoken – JWT issuance & verification
 cors – enable cross-origin requests
 dotenv – load environment variables
 multer - middleware to handle file uploads (like images) in your Node.js backend easily.
+
 -----------------------------------------------------------------------------------
+
 ##PostgreSQL
 CREATE DATABASE myapp;
 CREATE USER myuser WITH PASSWORD 'mypassword';
