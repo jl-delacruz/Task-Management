@@ -13,15 +13,26 @@ npm run dev
 
 -----------------------------------------------------------------------------------
 npm install react react-dom
+Installs React and React DOM to build and render your app in the browser.
+
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+Adds Material UI components, styling tools (Emotion), and icons for a nice, ready-made design system.
+
 npm install axios
+Installs Axios to easily make HTTP requests to your backend APIs.
+
 npm install react-router-dom
+Adds routing so your app can have multiple pages with URL navigation.
+
 npm install @mui/material @emotion/react @emotion/styled
+(Already included in #2) — Material UI and Emotion for styling your components.
+
 -----------------------------------------------------------------------------------
 
 
 
 ##server
+-----------------------------------------------------------------------------------
 npm install express pg bcrypt jsonwebtoken cors dotenv
 
 express – web framework
@@ -30,7 +41,7 @@ bcrypt – password hashing
 jsonwebtoken – JWT issuance & verification
 cors – enable cross-origin requests
 dotenv – load environment variables
-
+-----------------------------------------------------------------------------------
 ##PostgreSQL
 CREATE DATABASE myapp;
 CREATE USER myuser WITH PASSWORD 'mypassword';
