@@ -1,0 +1,31 @@
+##server
+npm install express pg bcrypt jsonwebtoken cors dotenv
+
+express – web framework
+pg – PostgreSQL client
+bcrypt – password hashing
+jsonwebtoken – JWT issuance & verification
+cors – enable cross-origin requests
+dotenv – load environment variables
+
+##PostgreSQL
+CREATE DATABASE myapp;
+CREATE USER myuser WITH PASSWORD 'mypassword';
+GRANT ALL PRIVILEGES ON DATABASE myapp TO myuser;
+
+CREATE TABLE tasks (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER REFERENCES users(id),
+  parent_id INTEGER REFERENCES tasks(id) ON DELETE CASCADE, -- for subtasks
+  title TEXT NOT NULL,
+  description TEXT,
+  image_url TEXT,
+  status TEXT DEFAULT 'Todo',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+\c myapp
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO myuser;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO myuser;
+

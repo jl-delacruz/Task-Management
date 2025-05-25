@@ -1,0 +1,12 @@
+Node.js
+https://nodejs.org
+node -v
+
+##Vite + React
+npm create vite@latest task-manager -- --template React
+npm install
+npm run dev
+
+##materialUI
+npm install @mui/material @emotion/react @emotion/styled
+

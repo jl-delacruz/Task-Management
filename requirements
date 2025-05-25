@@ -1,0 +1,42 @@
+Development of a Web-Based Task Management System Using the React Framework
+
+Project Overview:
+This project involves the development of a task management system with user
+authentication and task organization features. The system allows users to manage their tasks
+through a web-based interface built using React.
+
+Core Features:
+<!-- 1. User Authentication
+o Enable user registration via email (Sign Up).
+o Enable secure user login functionality. -->
+
+<!-- 2. Task Creation
+o Allow users to create new tasks with default status set to &quot;Todo&quot;.
+o Task statuses include: Todo, In Progress, and Completed. -->
+
+
+<!-- 3. Task Editing
+o Allow users to update task details and change task statuses.
+s -->
+<!-- 4. Task Deletion
+o Allow users to delete tasks by moving them to a Trash section. -->
+
+<!-- 5. Task Viewing and Management
+o Allow users to view all tasks in a list format.
+o Enable sorting of tasks based on date created. -->
+<!-- o Provide search functionality for locating specific tasks. -->
+
+Bonus Features (Optional Enhancements):
+<!-- 1. Support image attachment for tasks. -->
+<!-- 2. Enable creation of sub-tasks for better task decomposition. -->
+3. Implement an aesthetically pleasing and user-friendly interface.
+4. Design and integrate a landing page prior to the authentication pages.
+5. Ensure the application is mobile-responsive.
+
+6. Deploy the application using hosting services like Vercel or Netlify.
+
+7. Provide clear documentation for local setup and installation.
+8. Submit the “Project Domain” and “Repository Link”.
+
+Technical Requirements:
+ The system must be developed using React.js and Material UI.
