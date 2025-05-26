@@ -96,12 +96,13 @@ function SignIn() {
           </Typography>
         )}
 
-        <Typography variant="body2" mt={2}>
-          Don't have an account?{' '}
-          <Link to="/signup" style={{ color: '#1976d2', textDecoration: 'none' }}>
-            Sign Up
-          </Link>
-        </Typography>
+        <Typography variant="body2" mt={2} sx={{ color: 'gray' }}>
+        Don't have an account?{' '}
+        <Link to="/signup" style={{ color: '#1976d2', textDecoration: 'none' }}>
+          Sign Up
+        </Link>
+      </Typography>
+
       </Box>
     </Box>
   );
