@@ -1,5 +1,5 @@
 #Vercel
-https://vercel.com/jldelacruzs-projects/task-management
+https://vercel.com/jldelacruzs-projects/task-management-app
 
 #server
 cd server
